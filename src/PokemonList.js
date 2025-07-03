@@ -32,6 +32,8 @@ function PokemonList() {
     if (observer.current) observer.current.disconnect();
     observer.current = new IntersectionObserver(entries => {
       if (entries[0].isIntersecting) {
+        console.log("fetch pokemon");
+        console.log(pokemons.length)
         fetchPokemons(BASE_URL + `?offset=${pokemons.length}&limit=20`);
       }
     });
@@ -39,7 +41,8 @@ function PokemonList() {
   }, [loading, pokemons.length, fetchPokemons]);
 
   useEffect(() => {
-    fetchPokemons(BASE_URL + '?offset=0&limit=20');
+    console.log("use effect");
+    fetchPokemons(BASE_URL + '?offset=0&limit=25');
   }, [fetchPokemons]);
 
   useEffect(() => {
