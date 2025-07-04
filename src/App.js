@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import PokemonList from './PokemonList';
+import Pokedex from './Pokedex';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header> */}
-      <PokemonList />
+      <Pokedex />
     </div>
   );
 }
