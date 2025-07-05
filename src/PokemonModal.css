@@ -36,10 +36,51 @@
   margin-top: 10px;
 }
 
+#modal-img {
+  height: 200px;
+  width: 200px;
+}
+
 .header h2 {
   background-color: #eee;
   padding: 5px 10px;
   border-radius: 15px;
+}
+
+.about {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.height {
+  padding: 0 35px;
+
+}
+
+.height-details {
+  display: flex;
+  align-items: center;
+}
+
+.weight {
+  border-style: none solid;
+  padding: 0 35px;
+}
+
+.weight-details {
+  display: flex;
+  align-items: center;
+
+}
+
+.pokemon-abilities {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 2px;
+  padding: 20px;
 }
 
 .pokemon-stats {
