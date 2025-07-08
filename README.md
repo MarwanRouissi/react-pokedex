@@ -100,7 +100,15 @@ This will launch the application on http://localhost:3000 where you can interact
 
 Contributions are welcome! If you have suggestions or improvements, please follow these steps:
 1. Fork the project.
-2. Create a branch for your feature (git checkout -b feature/AmazingFeature).
-3. Commit your changes (git commit -m 'Add some AmazingFeature').
-4. Push to the branch (git push origin feature/AmazingFeature).
-5. Open a Pull Request.
+2. Create a branch for your feature.
+   ```bash
+    git checkout -b feature/AmazingFeature
+   ```
+4. Commit your changes.
+   ```bash
+    git commit -m 'Add some AmazingFeature'
+   ```
+6. Push to the branch.
+   ```bash
+   git push origin feature/AmazingFeature```
+8. Open a Pull Request.
